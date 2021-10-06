@@ -1,0 +1,7 @@
+.box {
+	margin: 50px auto;
+	width: 500px;
+	height: 500px;
+
+	transition: all 0.3s;
+}

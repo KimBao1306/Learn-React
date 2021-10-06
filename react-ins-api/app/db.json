@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "psw": "$2b$10$7zYZSCFY9/vKYFb0wW2HQO6xjZpdlYKKGmKcLjnyt05LmXLsa1oGi",
+      "name": "kim bảo",
+      "email": "kimbao756g@gmail.com",
+      "id": "Rdjrrj5es"
+    },
+    {
+      "name": "Kim Bao",
+      "email": "kimbao756@gmail.com",
+      "psw": "$2b$10$s.exvgEwN791TsFGGRX1h.CO8T0Y8yQjeh/1V2.HPrilTUxo4PghO",
+      "id": "Ego67cpcO"
+    },
+    {
+      "name": "sản phẩm 1",
+      "email": "a@yahoo.com",
+      "psw": "$2b$10$cC0OaYSmu4Y4oTJyqmpCJecFilk2wGjZNs9rWVj9oY7shsxK3QoeS",
+      "id": "nGpv1u4EC"
+    },
+    {
+      "name": "sản phẩm 1",
+      "email": "b@yahoo.com",
+      "psw": "$2b$10$HW1qmT7Q1QYZVXnbTTP2pO8z8jQbUelUDu9K5t/oerMZoX8G94E9C",
+      "id": "LqRb7kLxR"
+    },
+    {
+      "name": "sản phẩm 1",
+      "email": "c@yahoo.com",
+      "psw": "$2b$10$UkyB2zbPjeZBjqMfKlue3uAMUEL3PVzRf0bUn8Bl3TVeGEr9PhBdG",
+      "id": "t1DXzXqgc"
+    }
+  ],
+  "albums": [
+    {
+      "id": "0_v1ND3KC",
+      "src": "http://res.cloudinary.com/bao-codersx/image/upload/v1590935104/vedjhz3qy67ykkwgnfpc.jpg",
+      "idUser": "Rdjrrj5es",
+      "liked": 0
+    },
+    {
+      "id": "Pqf9lNmwY",
+      "src": "http://res.cloudinary.com/bao-codersx/image/upload/v1590936963/t2pzidoezhbk0f1ryacn.jpg",
+      "idUser": "Rdjrrj5es",
+      "liked": 0
+    },
+    {
+      "id": "AvrXwgdmV",
+      "src": "http://res.cloudinary.com/bao-codersx/image/upload/v1590938942/jsrrjtvmqtdmcmgsgdta.jpg",
+      "idUser": "Rdjrrj5es",
+      "liked": 0
+    },
+    {
+      "id": "ZPwK1cE54",
+      "src": "http://res.cloudinary.com/bao-codersx/image/upload/v1590938943/nsekbyspwsa3mj6fnia8.jpg",
+      "idUser": "Rdjrrj5es",
+      "liked": 0
+    },
+    {
+      "id": "JgwBKjsVG",
+      "src": "http://res.cloudinary.com/bao-codersx/image/upload/v1590939482/ospauoqeaswemhoqh5hl.jpg",
+      "idUser": "LqRb7kLxR",
+      "liked": 0
+    },
+    {
+      "id": "vsxWsn2Su",
+      "src": "http://res.cloudinary.com/bao-codersx/image/upload/v1590939492/rm4un8fp89kedlqvw832.jpg",
+      "idUser": "LqRb7kLxR",
+      "liked": 0
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+Các khái niệm cơ bản của ReactJs
+- React sử dụng Virtual Dom. Khi gọi component ra mới thực hiện việc mount vào Real Dom
+
+- Props: 
+  + các property được truyền vào component
+  + để lấy các props chỉ cần dùng biến .props
+- State: 
+  + biến luôn tồn tại. Khi bị thay đổi sẽ chạy lại hàm render
+  + state chỉ có thể thay đổi bởi chính component của nó
+
+Storybook
+- Khởi tạo create-react-app: "npx create-react-app name-app"
+- Thêm storybook: "npm install @storybook/react --save-dev"
+  + Thêm các npm cần thiết khác cho storybook: "npm install babel-loader @babel/core --save-dev"
+- Thêm đoạn run script vào package.json: " "storybook": "start-storybook" "
+- Tạo 1 folder cùng cấp với src: ".storybook/main.js + .storybook/preview.js"
+  + Nội dung file "main.js": " module.exports = { stories: ['../src/**/*.stories.[tj]s'], }; "
+  + Nội dung file "preview.js":
+    " import {configure} from '@storybook/react';
+      import {addDecorator} from '@storybook/react';
+      import {withInfo} from '@storybook/addon-info';
+      import 'bootstrap/dist/css/bootstrap.css';
+    
+      addDecorator(withInfo);
+
+      configure(require.context('../src/components', true, /\.stories\.js$/), module);"
+- Viết các story cho từng component theo đường dẫn và cấu trúc tên file "src/components/*.stories.js"
+- Chạy storybook: "npm run storybook"
+
+Deploy storybook lên firebase
+- Thêm đoạn run script vào package.json: " "build-storybook": "build-storybook -c .storybook -o .out" "
+- Run script: npm run build-storybook
+- Test storybook trên local: "npx http-server .out"
+- Tạo project trên firebase và thêm "npm install -g firebase-tools" vào folder ".out" được tạo sau khi chạy đoạn script trên.
+- Copy tất cả file trong folder ".out" vào thư mục public của firebase.
+- firebase deploy

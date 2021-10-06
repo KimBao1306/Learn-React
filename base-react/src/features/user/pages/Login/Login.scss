@@ -1,0 +1,39 @@
+.form {
+	&__inner {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+
+		min-height: 100vh;
+		max-width: 50%;
+
+		margin: 0 auto;
+		padding: 5rem 0;
+		& > .logo {
+			margin-bottom: 2rem;
+			font-size: 2rem;
+			display: none;
+		}
+	}
+	&__heading {
+		font-size: 3.2rem;
+		font-weight: 700;
+		margin-bottom: 2rem;
+	}
+	@media screen and (max-width: 991px) {
+		&__inner {
+			max-width: 60%;
+			& > .logo {
+				display: block;
+			}
+		}
+		&__heading {
+			font-size: 2rem;
+		}
+	}
+	@media screen and (max-width: 599px) {
+		&__inner {
+			max-width: 100%;
+		}
+	}
+}
